@@ -4,9 +4,12 @@
 }
 
 :root {
-  --primary-color: #d35f9f;
-  --secondary-color: #f0cadb;
-  --third-color: #fcf1f5;
+  /* --primary-color: #d35f9f; */
+  --primary-color: #0046be;
+  /* --secondary-color: #f0cadb; */
+  --secondary-color: #b0c4e0;
+  /* --third-color: #fcf1f5; */
+  --third-color: #f6f8fb;
   --text-color: #2d2d2d;
   --dark-gray: #6c757d;
   --light-gray: #f6f8fb;
@@ -32,6 +35,7 @@ header {
   background-color: #fff;
   padding: 12px 30px;
   border-radius: 20px;
+  /* border-radius: 5px; */
   font-size: 1rem;
   color: var(--primary-color);
   font-weight: bold;
@@ -70,11 +74,11 @@ header {
   color: white;
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .search-form button:hover {
   background-color: var(--hover-color);
-  transition: background-color 0.3s ease;
 }
 
 .features {
